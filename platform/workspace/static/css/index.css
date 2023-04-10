@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  height: fit-content;
+}
+
+.navigation {
+  display: block;
+  background-color: #333;
+  color: azure;
+  width: 100%;
+  height:100%;
+  min-height: 5vh;
+  margin: 0px;
+  padding: 0;
+}
+
+.navigation ul {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+ ul.sitenav li{
+  float: left;
+}
+
+ul.usernav li{
+  float: right;
+} 
+/* .sitenav li {
+  display: inline;
+  float: left;
+} */
+
+.navigation li a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 16px 16px;
+}
+
+.navigation li a:hover {
+  background-color: black;
+}
+
+/* .usernav li {
+  float: right;
+} */
+
+form.search {
+  display: inline;
+  margin: 12px 16px;
+  float: right;
+}
+
+form input {
+  height: 25px;
+  width: 200px;
+}
+
+th,
+td {
+  padding: 10px;
+}
+
+/* .navbar {
+  display: inline-block;
+  margin-top: 1rem;
+  margin-left: 3rem;
+     
+}
+
+.header ul {
+  list-style-type: none;  
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;  
+}
+
+.header li {
+  display: inline;
+  float:left;
+  
+}
+
+.header li a {
+  display: block;
+  margin-right: 1rem;  
+  padding: 0.5rem;  
+  text-decoration: none;
+  text-align: center;
+  color: aliceblue;
+  background-color: rgb(3, 0, 29);
+}
+
+.header li a:hover {
+  background-color: blue;
+  color:rgb(63, 3, 3);
+}
+
+
+.usernavbar {
+  display:flex; 
+  justify-content: right;
+  margin-right: 3rem;  
+}
+
+.user {
+  display: inline-block;
+  margin-top: 1rem;  
+} */
+
+.content {
+  background-color: rgb(26, 1, 65);
+  display: flex;
+  justify-content: space-around;
+  min-height: 95vh;
+  /* max-width: 100vh; */
+  color: rgb(184, 184, 184);
+  height: auto;
+  width: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.footer {
+  display: block;
+  min-height: 5vh;
+  height: viewport;
+  background-color: black;
+  color: aliceblue;
+}
+
+span {
+  /* background-color: wheat; */
+  color: rgb(247, 244, 244);
+}
+
+/* .intro {
+  background-color: aqua;  
+  width: 25%;
+  height:max-content;
+} */
+
+.sidebar {
+  position: relative;
+  left: 0px;
+  /* border: 2px solid blue; */
+  width: auto;
+  height: max-content;
+  color: rgb(244, 244, 247);
+}
+
+.sidebar h3 {
+  font: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 10px 0;
+  color: greenyellow;
+}
+
+.sidebar ol {
+  margin-left: 30px;
+  list-style-type: upper-alpha;
+}
+
+.sidebar h4 {
+  margin-left: 0px;
+  font: 400;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+}
+
+.calender {
+  /* border: 2px solid blueviolet; */
+  width: auto;
+  height: max-content;
+}
+
+.content.login-section {
+  height: max-content;
+  position: relative;
+  left: 50%;
+  top: 50%;
+}
+
+form .form-control {
+  margin: 50px;
+  padding: 30px;
+  border: 3px solid red;
+}
+/* 
+h1 {
+  left: 50px;
+  margin: 50px;
+  padding: 30px;
+} */
+
+h3 {
+  left: 50px;
+  margin: 50px;
+  padding: 30px;
+}
